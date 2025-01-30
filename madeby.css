@@ -1,0 +1,27 @@
+.madeby{
+    height: 100vh;
+    background: url(./img/blue2.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.name1{
+    color: white;
+    font-size: 70px;
+    position: relative;
+    top: 25%;
+}
+
+@media screen and (max-width:500px){
+    .madeby{
+        position: relative;
+        top: 1180px;
+    }    
+    .name1{
+        position: relative;
+        top: 13%;
+        font-size: 60px;
+
+    }
+}
